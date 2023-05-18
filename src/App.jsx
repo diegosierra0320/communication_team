@@ -11,6 +11,9 @@ import laura from './utils/img/Laura Romero.jpeg'
 import victor from './utils/img/Victor Lopez.jpeg'
 import yenny from './utils/img/Yenny Suarez.jpeg'
 import yonatan from './utils/img/Yonatan Bejarano.jpeg'
+import david from './utils/img/David Herrera.jpeg'
+import deissy from './utils/img/Deissy Perdomo.jpeg'
+import yohanna from './utils/img/Yohanna Bolivar.jpeg'
 import logoCwt from './utils/img/CWT+logo white.png'
 
 function App() {
@@ -21,6 +24,14 @@ function App() {
       <header className='header'>
         <img src={logoCwt} alt="" />
         <h1>Comité de comunicación</h1>
+
+        <select name="comunicados">
+          <option selected disabled value="">Comunicados</option>
+          <option value="">CUIT</option>
+          <option value="">Duplicados</option>
+          <option value="">Aerolineas Guaranteed Ticketing</option>
+          <option value="https://mycwt.jiveon.com/groups/gsc-colombia/blog/2021/10/22/cxp-diferencias-reenviar-responder">Responder vs reenviar CXP</option>
+        </select>
       </header>
       
       <div className='content'>
@@ -113,13 +124,43 @@ function App() {
             </div>
           </div>
           </SwiperSlide>
+          <SwiperSlide>
+          <div className='content-container'>
+            <img src={david} alt=""/>
+            <div className='description'>
+              <p>David Herrera</p>
+              <p>Consultor de viajes</p>
+              <p>Equipo MCG</p>
+            </div>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide>
+          <div className='content-container'>
+            <img src={deissy} alt=""/>
+            <div className='description'>
+              <p>Deissy Perdomo</p>
+              <p>Consultora de viajes</p>
+              <p>Equipo GCG</p>
+            </div>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide>
+          <div className='content-container'>
+            <img src={yohanna} alt=""/>
+            <div className='description'>
+              <p>Yohanna Bolivar</p>
+              <p>Consultora de viajes</p>
+              <p>Equipo ERM</p>
+            </div>
+          </div>
+          </SwiperSlide>
 
           </Swiper>
         </div>
       </div>
 
       <footer className='footer'>
-        <p>¿Tienes algo por comunicar? contactanos a ejemplo@mycwt.com</p> 
+        <p>¿Tienes algo por comunicar? contactanos a <a href="mailto:comitedecomunicaciones@mycwt.com">comitedecomunicaciones@mycwt.com</a></p>
       </footer>
     </>
   )
