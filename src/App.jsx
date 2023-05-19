@@ -14,6 +14,7 @@ import yonatan from './utils/img/Yonathan Bejarano.jpeg'
 import david from './utils/img/David Herrera.jpeg'
 import deissy from './utils/img/Deissy Perdomo.jpeg'
 import yohanna from './utils/img/Yohanna Bolivar.jpeg'
+import daniela from './utils/img/Daniela Cardenas.jpeg'
 import logoCwt from './utils/img/CWT+logo white.png'
 
 function App() {
@@ -153,6 +154,16 @@ function App() {
               <p>Equipo ERM</p>
             </div>
           </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className='content-container'>
+              <img src={daniela} alt=""/>
+              <div className='description'>
+                <p>Daniela Cardenas</p>
+                <p>Consultora de viajes</p>
+                <p>Equipo ERM Chile</p>
+              </div>
+            </div>
           </SwiperSlide>
 
           </Swiper>
