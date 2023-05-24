@@ -40,13 +40,70 @@ body {
   color: white;
 }
 
+.vertical-menu {
+  list-style: none;
+  position: absolute;
+  right: 0;
+  width: 120%;
+  background-color: rgba(0, 0, 0, .5);
+  overflow: hidden;
+  z-index: 10;
+  padding: 0;
+  border-radius: 10px;
+  transform: scaleY(0);
+  transition: transform 300ms ease;
+  transform-origin: top;
+}
+
+.vertical-menu li a {
+  display: block;
+  color: white;
+  padding: 15px 15px 15px;
+  text-align: right;
+  font-size: 15px;
+}
+
+.vertical-menu li:hover {
+  background-color: #FF8B13;
+}
+
+.horizontal-menu {
+  position: relative;
+  left: 650px;
+  width: 180px;
+}
+
+.horizontal-menu > li > b {
+  display: block;
+  padding: 15px 15px;
+  color: white;
+}
+
+.horizontal-menu li {
+  list-style: none;
+  transition: 200ms ease;
+}
+
+.horizontal-menu > li:hover {
+  background-color: #FF8B13;
+  transition: 200ms ease;
+}
+
+.horizontal-menu a {
+  text-decoration: none;
+}
+
+.horizontal-menu > li:hover .vertical-menu {
+  transform: scaleY(1);
+}
+
 .swiper-container {
   width: 80%;
 }
 
 .content {
   grid-area: content;
-  padding: 90px 0 134px 0;
+  padding: 130px 0 134px 0;
   display: flex;
   justify-content: center;
   gap: 5px;
@@ -110,6 +167,7 @@ body {
 .footer {
   grid-area: footer;
   height: 25px;
+  padding-top: 20px;
 }
 
 .footer p{

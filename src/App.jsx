@@ -23,16 +23,21 @@ function App() {
     <>
     <div id='particles-js'></div>
       <header className='header'>
-        <img src={logoCwt} alt="" />
+        <img src={logoCwt} alt=""/>
         <h1>Comité de comunicación</h1>
 
-        <select name="comunicados">
-          <option selected disabled value="">Comunicados</option>
-          <option value="">CUIT</option>
-          <option value="">Duplicados</option>
-          <option value="">Aerolineas Guaranteed Ticketing</option>
-          <option value="https://mycwt.jiveon.com/groups/gsc-colombia/blog/2021/10/22/cxp-diferencias-reenviar-responder">Responder vs reenviar CXP</option>
-        </select>
+        <ul className='horizontal-menu'>
+          <li>
+            <b>Comunicados <i className="fa-solid fa-caret-down"></i></b>
+            <ul className='vertical-menu'>
+              <li><a href="https://mycwt.jiveon.com/groups/gsc-colombia/blog/2023/05/23/cuit-clave-%25C3%25BAnica-de-identificaci%25C3%25B3n-tributaria" target='blank'>CUIT</a></li>
+              <li><a href="">Duplicados</a></li>
+              <li><a href="">Aerolineas Guaranteed Ticketing</a></li>
+              <li><a href="https://mycwt.jiveon.com/groups/gsc-colombia/blog/2021/10/22/cxp-diferencias-reenviar-responder" target='blank'>Responder vs reenviar CXP</a></li>
+            </ul>
+          </li>
+        </ul>
+
       </header>
       
       <div className='content'>
@@ -131,7 +136,7 @@ function App() {
             <div className='description'>
               <p>David Herrera</p>
               <p>Consultor de viajes</p>
-              <p>Equipo MCG</p>
+              <p>Equipo MCG Medellin</p>
             </div>
           </div>
           </SwiperSlide>
