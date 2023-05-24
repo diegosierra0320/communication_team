@@ -43,6 +43,7 @@ body {
 .vertical-menu {
   list-style: none;
   position: absolute;
+  top: 54px;
   right: 0;
   width: 120%;
   background-color: rgba(0, 0, 0, .5);
