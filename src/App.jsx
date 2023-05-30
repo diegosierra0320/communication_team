@@ -31,7 +31,7 @@ function App() {
             <b>Comunicados <i className="fa-solid fa-caret-down"></i></b>
             <ul className='vertical-menu'>
               <li><a href="https://mycwt.jiveon.com/groups/gsc-colombia/blog/2023/05/23/cuit-clave-%25C3%25BAnica-de-identificaci%25C3%25B3n-tributaria" target='blank'>CUIT</a></li>
-              <li><a href="">Duplicados</a></li>
+              <li><a href="https://mycwt.jiveon.com/groups/gsc-colombia/blog/2023/05/30/duplicados">Duplicados</a></li>
               <li><a href="">Aerolineas Guaranteed Ticketing</a></li>
               <li><a href="https://mycwt.jiveon.com/groups/gsc-colombia/blog/2021/10/22/cxp-diferencias-reenviar-responder" target='blank'>Responder vs reenviar CXP</a></li>
             </ul>
