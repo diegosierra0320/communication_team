@@ -32,7 +32,7 @@ function App() {
             <ul className='vertical-menu'>
               <li><a href="https://mycwt.jiveon.com/groups/gsc-colombia/blog/2023/05/23/cuit-clave-%25C3%25BAnica-de-identificaci%25C3%25B3n-tributaria" target='blank'>CUIT</a></li>
               <li><a href="https://mycwt.jiveon.com/groups/gsc-colombia/blog/2023/05/30/duplicados" target='blank'>Duplicados</a></li>
-              <li><a href="https://mycwt.jiveon.com/groups/gsc-colombia/blog/2023/07/17/aerolineas-guaranteed-ticketing">Aerolineas Guaranteed Ticketing</a></li>
+              <li><a href="https://mycwt.jiveon.com/groups/gsc-colombia/blog/2023/07/17/aerolineas-guaranteed-ticketing" target='blank'>Aerolineas Guaranteed Ticketing</a></li>
               <li><a href="https://mycwt.jiveon.com/groups/gsc-colombia/blog/2021/10/22/cxp-diferencias-reenviar-responder" target='blank'>Responder vs reenviar CXP</a></li>
               <li><a href="https://mycwt.jiveon.com/groups/gsc-colombia/blog/2023/07/12/formas-de-pago-v%25C3%25A1lidas-para-latam" target='blank'>Formas de pago válidas para Latam</a></li>
               <li><a href="https://mycwt.jiveon.com/groups/gsc-colombia/blog/2023/07/11/templates-cxp-latam" target='blank'>Templates CXP</a></li>
